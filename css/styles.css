@@ -1,0 +1,114 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background-color: black;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* ========== FULL PAGE ========== */
+
+body {
+  margin: 0;
+}
+
+section {
+  padding: 10px 0px 10px 5vmax;
+}
+
+.section-titles {
+  font-size: 62px;
+  text-align: center;
+}
+
+/* ========== HEADER ========== */
+
+.header-banner {
+  display: flex;
+  justify-content: center;
+  background-color: #561960;
+  width: 100vmax;
+  min-height: fit-content;
+  padding: 10px 0;
+  float: inline-start;
+}
+
+.header-banner img {
+  position: absolute;
+  top: 8px;
+  left: 30px;
+}
+
+.header-banner h1 {
+  max-width: max-content;
+}
+
+.site-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 100;
+  flex: 1 0 100%;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.logo {
+  max-width: 100px;
+  max-height: 50px;
+}
+
+/* ========== NAV MENU BAR ========== */
+ul {
+  display: block;
+  position: fixed;
+  top: 40vh;
+  left: 30px;
+  padding: 20px;
+  font-size: 28px;
+  z-index: 1;
+}
+
+li {
+  list-style: none;
+}
+
+/* ========== SECTION: 1 & 2 ========== */
+.banner-video-pic {
+  max-width: 95vmax;
+  min-height: 100vh;
+}
+/* ========== SECTION: CASTING BOOK ========== */
+
+/* ========== SECTION: ABOUT THE PROGRAMME ========== */
+#about-program {
+  background-color: #561960;
+}
+/* ========== LINKS ========= */
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #561960;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: rgb(149, 115, 191);
+}
+
+a:active {
+  color: grey;
+}

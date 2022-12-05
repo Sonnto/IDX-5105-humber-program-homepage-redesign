@@ -88,10 +88,41 @@ li {
 }
 /* ========== SECTION: CASTING BOOK ========== */
 
+.casting-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+  gap: 108px;
+  row-gap: 32px;
+}
+
+.casting-bio-pic {
+  width: 200px;
+}
+
 /* ========== SECTION: ABOUT THE PROGRAMME ========== */
 #about-program {
   background-color: #561960;
 }
+
+.about-container {
+  display: flex;
+  align-items: center;
+}
+
+.about-image {
+  width: 800px;
+  height: 400px;
+  margin: 0 0 0 60px;
+}
+
+.about-texts {
+  text-align: center;
+  font-size: 24px;
+  margin: 0 60px 0 32px;
+}
+
 /* ========== LINKS ========= */
 a {
   text-decoration: none;
